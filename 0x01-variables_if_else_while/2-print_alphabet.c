@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - enrty point
  *
- * Return: Always 0 (Success/correct)
+ * Return: always o (success)
  */
+
 int main(void)
 {
-	char i;
+	char n;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(i);
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
