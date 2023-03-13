@@ -12,6 +12,6 @@ int main(int argc, char **argv)
 {
 	(void)argv;
 
-	printf("Number of Command-line arguments (excluding the program name) is %d\n", argc - 1);
+	printf("Command-line arguments(excluding program name) is %d\n", argc - 1);
 	return (0);
 }
