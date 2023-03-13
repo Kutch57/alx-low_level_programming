@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - adds positive numbers
@@ -25,7 +26,7 @@ int main(int argc, char **argv)
 		n = strtol(argv[i], &flag, 10);
 		if (*flag)
 		{
-			print("Error\n");
+			printf("Error\n");
 			return (1);
 		}
 		else
@@ -33,7 +34,7 @@ int main(int argc, char **argv)
 			sum += n;
 		}
 	}
-	print("%d\n", sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
