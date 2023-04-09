@@ -5,14 +5,14 @@
  * @b: Pointer to a string of 0 or 1 characters.
  * Return: the converted number,
  * or 0 if there is one or more chars in the string that is not 0 or 1,
- * or b is NULL.
+ * or b is 0.
  */
 
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0;
 
-	if (b == NULL)
+	if (b == 0)
 	{
 	return (0);
 	}
@@ -33,4 +33,3 @@ unsigned int binary_to_uint(const char *b)
 
 	return (num);
 }
-
