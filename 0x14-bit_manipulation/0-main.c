@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - This checks the main code
  *
- * Return: Always 0.
+ * Return: Should always be 0.
  */
 int main(void)
 {
